@@ -2,4 +2,3 @@ tensorflow
 numpy
 sklearn
 Pillow
--e.
