@@ -9,6 +9,7 @@ from keras.layers import GlobalMaxPooling2D
 from keras.applications.resnet50 import ResNet50,preprocess_input
 from sklearn.neighbors import NearestNeighbors
 from numpy.linalg import norm
+import setup
 
 feature_list = np.array(pickle.load(open('embeddings.pkl','rb')))
 filenames = pickle.load(open('filenames.pkl','rb'))
